@@ -2,7 +2,7 @@ import test, urllib, subprocess
 import datetime as dt
 from os import path
 from telegram.ext import Updater
-updater = Updater(token='638450968:AAEHASk3PQx7mDsVvs97FaF1vgpYFsbQSNM', use_context=True)
+updater = Updater(token='*REPLACE WITH YOUR BOT TOKEN*', use_context=True)
 dispatcher = updater.dispatcher
 
 import logging
